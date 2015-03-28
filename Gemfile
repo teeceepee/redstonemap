@@ -1,6 +1,7 @@
 source 'https://ruby.taobao.org'
 
 gem 'bootstrap-sass', '~> 3.3.4'
+gem 'haml-rails', '~> 0.9.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
