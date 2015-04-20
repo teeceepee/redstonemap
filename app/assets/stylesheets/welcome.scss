@@ -4,4 +4,14 @@
 
 footer {
   border-top: 1px dotted $gray-lighter;
+  margin: 5em 0;
+}
+
+html {
+  height: 100%;
+}
+
+#map-container {
+  //background: #999999;
+  height: 500px;
 }
