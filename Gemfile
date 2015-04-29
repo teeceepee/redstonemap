@@ -12,6 +12,9 @@ gem 'nprogress-rails', '~> 0.1.6.6'
 group :development, :test do
   # https://github.com/rweng/pry-rails
   gem 'pry-rails', '~> 0.3.4'
+
+  # https://github.com/rspec/rspec-rails
+  gem 'rspec-rails', '~> 3.2.1'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
