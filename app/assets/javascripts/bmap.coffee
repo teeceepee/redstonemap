@@ -1,5 +1,5 @@
 $(document).on 'ready page:load', ->
-  if typeof BMap != 'undefined'
+  if typeof BMap != 'undefined' and $('#map-container').length > 0
     map = new BMap.Map('map-container')
     console.log map
 
