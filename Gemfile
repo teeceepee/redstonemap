@@ -1,10 +1,16 @@
 source 'https://ruby.taobao.org'
 
+# https://github.com/twbs/bootstrap-sass
 gem 'bootstrap-sass', '~> 3.3.4'
+
+# https://github.com/indirect/haml-rails
 gem 'haml-rails', '~> 0.9.0'
+
+# https://github.com/caarlos0/nprogress-rails
 gem 'nprogress-rails', '~> 0.1.6.6'
 
 group :development, :test do
+  # https://github.com/rweng/pry-rails
   gem 'pry-rails', '~> 0.3.4'
 end
 
