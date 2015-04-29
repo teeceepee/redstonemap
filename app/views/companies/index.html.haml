@@ -3,20 +3,7 @@
 #companies
   = render @companies
 
--#%table
--#  %thead
--#    %tr
--#      %th
--#      %th
--#      %th
--#
--#  %tbody
--#    - @companies.each do |company|
--#      %tr
--#        %td= link_to 'Show', company
--#        %td= link_to 'Edit', edit_company_path(company)
--#        %td= link_to 'Destroy', company, :method => :delete, :data => { :confirm => 'Are you sure?' }
--#
--#%br
+%nav
+  = paginate @companies
 
-= link_to 'New Company', new_company_path
+-#= link_to 'New Company', new_company_path
