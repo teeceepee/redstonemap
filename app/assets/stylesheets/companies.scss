@@ -1,0 +1,12 @@
+// Place all the styles related to the Companies controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.company {
+  display: inline-block;
+  width: 200px;
+  margin: 1em;
+  padding: 1em 4px 4px 4px;
+  border: 1px $gray-lighter solid;
+//  text-align: center;
+}
