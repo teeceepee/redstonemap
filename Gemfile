@@ -15,6 +15,9 @@ group :development, :test do
 
   # https://github.com/rspec/rspec-rails
   gem 'rspec-rails', '~> 3.2.1'
+
+  # https://github.com/thoughtbot/factory_girl_rails
+  gem 'factory_girl_rails', '~> 4.5.0'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
