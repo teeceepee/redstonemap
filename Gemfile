@@ -12,6 +12,9 @@ gem 'nprogress-rails', '~> 0.1.6.6'
 # https://github.com/amatsuda/kaminari
 gem 'kaminari', '~> 0.16.3'
 
+# https://github.com/plataformatec/simple_form
+gem 'simple_form', '~> 3.1.0'
+
 group :development, :test do
   # https://github.com/rweng/pry-rails
   gem 'pry-rails', '~> 0.3.4'
