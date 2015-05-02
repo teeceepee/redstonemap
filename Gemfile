@@ -15,6 +15,11 @@ gem 'kaminari', '~> 0.16.3'
 # https://github.com/plataformatec/simple_form
 gem 'simple_form', '~> 3.1.0'
 
+# https://github.com/carrierwaveuploader/carrierwave
+gem 'carrierwave', '~> 0.10.0'
+# https://github.com/minimagick/minimagick
+gem 'mini_magick', '~> 4.2.3'
+
 group :development, :test do
   # https://github.com/rweng/pry-rails
   gem 'pry-rails', '~> 0.3.4'
