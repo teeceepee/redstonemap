@@ -1,10 +1,12 @@
-= form_for @company do |f|
-  - if @company.errors.any?
-    #error_explanation
-      %h2= "#{pluralize(@company.errors.count, "error")} prohibited this company from being saved:"
-      %ul
-        - @company.errors.full_messages.each do |msg|
-          %li= msg
+.panel.panel-default
+  .panel-body
+    = simple_form_for(@company, html: {class: 'form-horizontal'}, wrapper: :horizontal_form) do |f|
+      = f.error_notification
 
-  .actions
-    = f.submit 'Save'
+      = f.input :name
+      = f.input :address
+      = f.input :latitude
+      = f.input :longitude
+      = f.input :description
+
+      = f.button :submit
