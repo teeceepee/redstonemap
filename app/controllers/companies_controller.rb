@@ -4,7 +4,7 @@ class CompaniesController < ApplicationController
   # GET /companies
   # GET /companies.json
   def index
-    @companies = Company.all.page(params[:page]).per(4)
+    @companies = Company.all.page(params[:page]).per(8)
   end
 
   # GET /companies/1
@@ -69,6 +69,6 @@ class CompaniesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def company_params
-      params.require(:company).permit(:name, :logo, :address, :latitude, :longitude, :description)
+      params.require(:company).permit(:name, :logo, :logo_cache, :address, :latitude, :longitude, :description)
     end
 end

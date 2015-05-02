@@ -22,3 +22,6 @@
 
 # Ignore RubyMine project files.
 /.idea
+
+# Ignore uploaded files.
+/public/uploads/

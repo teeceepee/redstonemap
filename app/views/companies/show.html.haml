@@ -1,5 +1,10 @@
 %p#notice= notice
 
+%p
+  = @company.name
+
+%p
+  = image_tag(@company.logo_url)
 
 = link_to 'Edit', edit_company_path(@company)
 \|

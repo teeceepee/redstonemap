@@ -14,6 +14,8 @@ gem 'kaminari', '~> 0.16.3'
 
 # https://github.com/plataformatec/simple_form
 gem 'simple_form', '~> 3.1.0'
+# https://github.com/apeacox/simple_form_fancy_uploads
+gem 'simple_form_fancy_uploads', '~> 0.2.0'
 
 # https://github.com/carrierwaveuploader/carrierwave
 gem 'carrierwave', '~> 0.10.0'

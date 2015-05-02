@@ -4,6 +4,8 @@
       = f.error_notification
 
       = f.input :name
+      = f.input :logo, wrapper: :horizontal_file_input, as: :image_preview
+      = f.hidden_field :logo_cache
       = f.input :address
       = f.input :latitude
       = f.input :longitude
