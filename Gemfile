@@ -22,6 +22,9 @@ gem 'carrierwave', '~> 0.10.0'
 # https://github.com/minimagick/minimagick
 gem 'mini_magick', '~> 4.2.3'
 
+# https://github.com/teeceepee/simple_form_fancier_uploads
+gem 'simple_form_fancier_uploads', '~> 0.1.0'
+
 group :development, :test do
   # https://github.com/rweng/pry-rails
   gem 'pry-rails', '~> 0.3.4'

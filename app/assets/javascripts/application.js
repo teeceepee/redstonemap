@@ -19,4 +19,6 @@
 //= require nprogress
 //= require nprogress-turbolinks
 
+//= require simple_form_fancier_uploads
+
 //= require_tree .
