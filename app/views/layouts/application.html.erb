@@ -6,6 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'http://api.map.baidu.com/api?v=1.5&ak=sXqGyUaOEt3Q3XHIu68XDgXK' %>
   <%= csrf_meta_tags %>
+  <%= render 'companies/coords_json' %>
 </head>
 <body>
   <%= render 'layouts/header' %>
