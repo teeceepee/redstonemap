@@ -11,6 +11,14 @@ $(document).on 'ready page:load', ->
     map = new BMap.Map('map-container')
     console.log map
 
+    # 左上角，添加默认缩放平移控件
+    top_left_navigation = new BMap.NavigationControl()
+    map.addControl(top_left_navigation)
+
+    # 左下角，添加默认比例尺
+    bottom_left_control = new BMap.ScaleControl()
+    map.addControl(bottom_left_control)
+
     # 显示用户所在城市
     localCity = new BMap.LocalCity()
     localCity.get (result) ->
