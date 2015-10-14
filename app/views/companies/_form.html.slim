@@ -15,18 +15,18 @@
 
 
 - content_for :modal do
-  .modal.fade#rsm-coords-selector{tabindex: '-1'}
+  .modal.fade#rsm-coords-selector tabindex="-1"
     .modal-dialog.modal-lg
       .modal-content
         .modal-header
-          %button.close{type: 'button', data: {dismiss: 'modal'}}
-            %span &times;
-          %h4 Select LatLng
+          button.close type="button" data={dismiss: 'modal'}
+            span &times;
+          h4 Select LatLng
 
         .modal-body
-          %p#rsm-latlng LatLng:
+          p#rsm-latlng LatLng:
           #rsm-coords-map
 
         .modal-footer
-          %button.btn.btn-default{type: 'button', data: {dismiss: 'modal'}} Close
-          %button.btn.btn-primary#rsm-coords-save-button{type: 'button', data: {dismiss: 'modal'}} Save Changes
+          button.btn.btn-default type="button" data={dismiss: 'modal'} Close
+          button.btn.btn-primary#rsm-coords-save-button type="button" data={dismiss: 'modal'} Save Changes

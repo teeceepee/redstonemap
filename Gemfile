@@ -3,9 +3,6 @@ source 'https://ruby.taobao.org'
 # https://github.com/twbs/bootstrap-sass
 gem 'bootstrap-sass', '~> 3.3.4'
 
-# https://github.com/indirect/haml-rails
-gem 'haml-rails', '~> 0.9.0'
-
 # https://github.com/caarlos0/nprogress-rails
 gem 'nprogress-rails', '~> 0.1.6.6'
 
@@ -29,7 +26,10 @@ gem 'simple_form_fancier_uploads', '~> 0.1.0'
 gem 'puma', '~> 2.11.2'
 
 # https://github.com/plataformatec/devise
-gem 'devise', '3.4.1'
+gem 'devise', '~> 3.4.1'
+
+# https://github.com/slim-template/slim-rails
+gem 'slim-rails', '~> 3.0.1'
 
 group :development, :test do
   # https://github.com/rweng/pry-rails

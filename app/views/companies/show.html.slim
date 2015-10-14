@@ -1,11 +1,11 @@
-%p#notice= notice
+p#notice= notice
 
-%p
+p
   = @company.name
 
-%p
+p
   = image_tag(@company.logo_url)
 
 = link_to 'Edit', edit_company_path(@company)
-\|
+| |
 = link_to 'Back', companies_path
