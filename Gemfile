@@ -37,6 +37,9 @@ group :development, :test do
 
   # https://github.com/thoughtbot/factory_girl_rails
   gem 'factory_girl_rails', '~> 4.5.0'
+
+  # https://github.com/evrone/quiet_assets
+  gem 'quiet_assets', '~> 1.1.0'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
